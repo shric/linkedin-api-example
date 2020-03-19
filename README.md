@@ -1,7 +1,12 @@
 # linkedin-api-example
 Simple example usage of LinkedIn API with "3-legged OAuth" authorization
 
-Usage: 
+## Requirements
+
+- [bottle](https://bottlepy.org/docs/dev/).
+- Tested on Python 3.x but should be trivial to make work on 2.7
+
+## Usage
 
 ```bash
 CLIENT_ID="your client_id" CLIENT_SECRET="your client_secret" REDIRECT_URI="your redirect_uri" python3 main.py
